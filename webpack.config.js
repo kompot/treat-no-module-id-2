@@ -32,4 +32,7 @@ module.exports = {
     }),
     new MiniCssExtractPlugin(),
   ],
+  optimization: {
+    concatenateModules: false
+  }
 };
